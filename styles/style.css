@@ -149,6 +149,7 @@ ol {
   text-decoration: none;
   color: #fff;
   display: block;
+  cursor: pointer;
 }
 
 .content__video-card-title {
@@ -310,11 +311,6 @@ ol {
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
-}
-
-.content__card-link {
-  display: block;
-  cursor: pointer;
 }
 
 .content__card-link_current,  .content__card-link:active{
