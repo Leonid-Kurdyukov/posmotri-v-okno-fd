@@ -200,6 +200,7 @@ ol {
   align-items: center;
   gap: 5px;
   width: fit-content;
+  cursor: pointer;
 }
 
 .search-form__textfield {
@@ -285,11 +286,13 @@ ol {
 .search-form__submit-button {
   width: 194px;
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .more-button {
   width: 100%;
   height: 34px;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -311,6 +314,7 @@ ol {
 
 .content__card-link {
   display: block;
+  cursor: pointer;
 }
 
 .content__card-link_current,  .content__card-link:active{
@@ -336,11 +340,7 @@ ol {
   padding-right: 3px;
 }
 
-.search-form__checkbox,
-.search-form__label,
-.search-form__submit-button,
-.more-button,
-.content__card-link {
+.search-form__checkbox {
   cursor: pointer;
 }
 
